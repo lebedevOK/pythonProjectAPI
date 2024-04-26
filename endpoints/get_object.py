@@ -14,3 +14,4 @@ class GetObject:
 
     def check_response_id(self, object_id):
         assert self.response_json['id'] == object_id
+
