@@ -10,5 +10,3 @@ class CreateObject(Endpoint):
 
     def check_name(self, name):
         assert self.response_json['name'] == name
-
-
